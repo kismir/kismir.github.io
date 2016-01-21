@@ -12,3 +12,8 @@
 body {
 	background-color: #C0C0C0;
 	}
+	
+html {
+    background: url(pic.jpg) no-repeat center fixed;
+    background-size: cover;
+} 
