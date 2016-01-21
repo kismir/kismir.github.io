@@ -1,0 +1,92 @@
+<p>Here comes really concentrated info yet.
+
+<p>First version looked like this:
+
+<p>---------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hello World</title>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <p>
+            Hello there.
+        </p>
+        <button type="button">Your Commendations!</button> 
+    </body>
+</html>
+<p>----------------------------------------------------------
+
+<p>Added css then. File buttons css:
+
+<p>CSS:
+
+<p>----------------------------------------------------------
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+<p>----------------------------------------------------------
+
+<p>HTML:
+
+<p>----------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML+CSS</title>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <p>
+            Hello there.
+        </p>
+        <button type="button">Your Commendations!</button> 
+        <link rel="stylesheet" type="text/css" href="buttons.css" />
+        <button class="button" onclick="alert('Work it')">CSS Button</button>
+    </body>
+</html>
+<p>-----------------------------------------------------------
+
+<p>As you see, i applied it through "link". I don't know whether it is good style or not...
+
+
+<p>Added more buttons and IFrames then
+
+
+<p>-----------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML+CSS</title>
+    </head>
+    <body>
+        <h1 style="font-size:300%;" align="center"> Bunch of Projects </h1>
+        <p align="center">This page is held in purposes of a personal shedule. It contains plain project info. 
+        Descriptions, how to's. I tried to sum up all essential details here.</p>
+        <link rel="stylesheet" type="text/css" href="buttons.css" />
+        <p align="center">
+        <button class="button" onclick="iframe_main.location.href='blank_page.html'">This Page</button>
+        <button class="button" onclick="alert('In Work')">TelegramBot</button>
+        <button class="button" onclick="alert('In Work')">RapTorus</button>
+        <button class="button" onclick="alert('In Work')">Hexapod</button>
+        </p>
+        <p>
+        <iframe width="100%" height="10000" src="blank_page.html" name="iframe_main"></iframe>
+        </p>
+
+    </body>
+</html>
+<p>----------------------------------------------------------
