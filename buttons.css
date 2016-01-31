@@ -9,9 +9,9 @@
     font-size: 16px;
 }
 
-body {
-	background-color: #C0C0C0;
-	}
+!body {
+!	background-color: #C0C0C0;
+!	}
 	
 html {
     background: url(https://cloud.githubusercontent.com/assets/6117779/12494085/d50b65b6-c0a1-11e5-824b-79ddf412125d.jpg) no-repeat center fixed;
