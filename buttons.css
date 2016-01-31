@@ -9,6 +9,12 @@
     font-size: 16px;
 }
 
+div.main {
+	background-color: #C0C0C0;
+}
+
+}
+
 !body {
 !	background-color: #C0C0C0;
 !	}
