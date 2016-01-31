@@ -10,7 +10,7 @@ div {
 }
 
 @keyframes example {
-    0%   {background-color: red; left:200px;}
-    50%  {background-color: yellow; left:1200px;}
-    100% {background-color: red; left:200px;}
+    0%   {background-color: red; left:200px; transform:rotate(0deg);}
+    50%  {background-color: yellow; left:600px; transform:rotate(860deg);}
+    100% {background-color: red; left:200px; transform:rotate(0deg);}
 }
