@@ -7,6 +7,10 @@ div.rot {
     animation-iteration-count: infinite;
     animation-name: example;
     animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: example;
+    -webkit-animation-timing-function: ease-in-out;
     }
 
 @keyframes example {
