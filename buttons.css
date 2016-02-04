@@ -31,6 +31,11 @@
     transition-duration: 0.4s;
     }
     
+.strticon:hover {
+    background-color: black; /* Green */
+    color: #4CAF50;
+    }
+    
 .strticon:active {
     animation-duration: 1s;
     animation-iteration-count: 1;
