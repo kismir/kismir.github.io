@@ -16,8 +16,9 @@
     color: #4CAF50;
     }
 
-.strticon {
-    position: relative;
+.strticon{
+    !position: relative;
+    left:80%
     width: 50px;
     height: 50px;
     background-color: gray;
@@ -30,13 +31,17 @@
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     }
+
+.strticon:before {
+    left:20%
+    }
     
 .strticon:hover {
     background-color: black; /* Green */
     color: #4CAF50;
     }
     
-.strticon:active {
+.strticon:not(active):before {
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-name: butflow;
