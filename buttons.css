@@ -23,7 +23,7 @@
     background-color: red;
     }
     
-.strticon:checked {
+.strticon:active {
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-name: example;
