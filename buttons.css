@@ -41,7 +41,7 @@
     color: #4CAF50;
     }
     
-.strticon:not(active):before {
+.strticon:not(:active):before {
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-name: butflow;
