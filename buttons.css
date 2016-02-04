@@ -36,14 +36,12 @@
 
 @keyframes example {
     0%   {background-color: red; left:20%; transform:rotate(0deg);}
-    50%  {background-color: yellow; left:80%; transform:rotate(1260deg);}
-    100% {background-color: red; left:20%; transform:rotate(0deg);}
+    100%  {background-color: yellow; left:80%; transform:rotate(1260deg);}
     }
     
 @-webkit-keyframes example {
     0%   {background-color: red; left:20%; -webkit-transform:rotate(0deg);}
-    50%  {background-color: yellow; left:80%; -webkit-transform:rotate(1260deg);}
-    100% {background-color: red; left:20%; -webkit-transform:rotate(0deg);}
+    100%  {background-color: yellow; left:80%; -webkit-transform:rotate(1260deg);}
     }
 
 
