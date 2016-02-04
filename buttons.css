@@ -10,8 +10,8 @@
     }
 
 .button:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
+    background-color: white; /* Green */
+    color: #4CAF50;
     }
 
 
