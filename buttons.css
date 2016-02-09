@@ -49,12 +49,12 @@
 
 @keyframes butflow {
     0%   {background-color: gray; left:0%; transform:rotate(0deg);}
-    100%  {background-color: black; left:750px; transform:rotate(1260deg);}
+    100%  {background-color: black; left:650px; transform:rotate(1260deg);}
     }
     
 @-webkit-keyframes butflow {
     0%   {background-color:gray; left:0%; -webkit-transform:rotate(0deg);}
-    100%  {background-color: black; left:750px; -webkit-transform:rotate(1260deg);}
+    100%  {background-color: black; left:650px; -webkit-transform:rotate(1260deg);}
     }
 
 
